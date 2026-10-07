@@ -7,7 +7,7 @@ let btn = document.getElementById('btn');
 form.addEventListener('submit',(e)=>{
 	e.preventDefault();
 
-	if(input.value === || age.value){
+	if(name.value === "" || age.value === ""){
 		alert("Please enter valid details.");
 	}
 	let promise = new Promise((resolve, reject)=>{
