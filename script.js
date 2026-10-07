@@ -9,6 +9,7 @@ form.addEventListener('submit',(e)=>{
 
 	if(name.value === "" || age.value === ""){
 		alert("Please enter valid details.");
+		return;
 	}
 	let promise = new Promise((resolve, reject)=>{
 		setTimeout(()=>{
